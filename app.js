@@ -18,7 +18,7 @@ function sum(a, b){
     
     }
     sum(4,7);
-
+sum(4,7);
 // Here is the test for sum(); uncomment it to run it
 // testSum(4, 7);
 
@@ -35,7 +35,8 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
 var multiple = a*b;
-var message2 = 'The product of 5 and 9 is 45.'
+var message2 = 'The product of 5 and 9 is 45.';
+return [multiple, message];
 
 
 }
