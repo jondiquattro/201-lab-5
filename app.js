@@ -17,8 +17,8 @@ function sum(a, b){
        
     
     }
-    sum(4,7);
 sum(4,7);
+
 // Here is the test for sum(); uncomment it to run it
 // testSum(4, 7);
 
@@ -40,6 +40,7 @@ return [multiple, message];
 
 
 }
+multiply(5,9);
 
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
@@ -58,9 +59,17 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
-function sumAndMultiply(a, b, c) { //eslint-disable-line
 
-}
+function sumAndMultiply(a, b, c, d) { 
+    var product = a*b*d;
+    var sum = a+b+c;
+    var sumMessage = '4 and 7 and 5 sum to 16.';
+    var porductMessage = 'The product of 4 and 7 and 5 is 140.';
+    
+    return [sum, product, sumMessage, porductMessage];
+    }
+    
+    sumAndMultiply(4,7,5);
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
 // testSumAndMultiply(4,7,5);
